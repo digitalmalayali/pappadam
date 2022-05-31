@@ -155,7 +155,7 @@ define(["exports", "./initial-app-c3b1146f"], (function(t, e) {
             t.width = a.width * devicePixelRatio, t.height = a.height * devicePixelRatio;
             const r = s.getBoundingClientRect(),
                 h = getComputedStyle(t),
-                l = h.getPropertyValue("--blob-pink"),
+                l = h.getPropertyValue("--blob-orange"),
                 d = r.left - a.left + r.width / 2,
                 u = r.top - a.top + r.height / 2,
                 m = r.height / 2 / 1.25;
