@@ -701,7 +701,7 @@ define(["require", "exports"], (function(e, t) {
                 class: "_content-padding_19rbd_473"
             }, p("p", {
                 class: "_demo-title_19rbd_593"
-            }, "അല്ലെങ്കിൽ താഴെനിന്നും ", p("strong", null, "ഒരെണ്ണം പരീക്ഷിക്കൂ"), ":"), p("ul", {
+            }, "അതുമല്ലെങ്കിൽ താഴെനിന്നും ", p("strong", null, "ഒരെണ്ണം പരീക്ഷിക്കൂ"), ":"), p("ul", {
                 class: "_demos_19rbd_199"
             }, ie.map((t, n) => p("li", null, p("button", {
                 class: "unbutton",
