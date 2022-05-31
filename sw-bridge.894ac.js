@@ -103,7 +103,7 @@
                 async () => {
                   n
                     ? location.reload()
-                    : t('Ready to work offline', { timeout: 5e3 });
+                    : t('ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കാൻ തയ്യാറാണ്', { timeout: 5e3 });
                 },
               ),
               !n)
@@ -113,7 +113,7 @@
             r &&
               (await a(r),
               'reload' ===
-                (await t('Update available', {
+                (await t('അപ്ഡേറ്റ് ലഭ്യമാണ്', {
                   actions: ['reload', 'dismiss'],
                 })) &&
                 (async function () {

@@ -912,15 +912,7 @@ define(["require", "exports"], (function(e, t) {
             var o, s, c;
             n.__ && n.__(e, t), s = (o = i === r) ? null : i && i.__k || t.__k, e = p(u, null, [e]), c = [], C(t, (o ? t : i || t).__k = e, s || a, a, void 0 !== t.ownerSVGElement, i && !o ? [i] : s ? null : t.childNodes.length ? l.slice.call(t.childNodes) : null, c, i || a, o), A(c, e)
         }(p(pe, null), he)
-    }(); {
-        const e = navigator.standalone || window.matchMedia("(display-mode: standalone)").matches ? "standalone" : "browser";
-        window.ga = window.ga || ((...e) => (ga.q = ga.q || []).push(e)), ga("create", "UA-128752250-1", "auto"), ga("set", "transport", "beacon"), ga("set", "dimension1", e), ga("send", "pageview", "/index.html", {
-            title: "Squoosh"
-        }), addEventListener("load", () => {
-            const e = document.createElement("script");
-            e.src = "https://www.google-analytics.com/analytics.js", document.head.appendChild(e)
-        })
-    }
+    }();
     t.appendCss = P, t.d = f, t.h = p, t.linkRef = M, t.loadImg = Y, t.p = u, t.startBlobs = te, Object.defineProperty(t, "__esModule", {
         value: !0
     })

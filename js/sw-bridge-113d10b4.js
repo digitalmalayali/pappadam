@@ -33,7 +33,7 @@ define(["exports", "./idb-keyval-3888ea60"], (function(e, t) {
         navigator.serviceWorker.register(t.swUrl);
         const n = !!navigator.serviceWorker.controller;
         if (navigator.serviceWorker.addEventListener("controllerchange", async () => {
-                n ? location.reload() : e("Ready to work offline", {
+                n ? location.reload() : e("ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കാൻ തയ്യാറാണ്", {
                     timeout: 5e3
                 })
             }), !n) return;
