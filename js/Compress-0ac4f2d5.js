@@ -706,7 +706,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onSubmit: y
             }, i.h("label", {
                 class: U
-            }, "Lossless", i.h(ce, {
+            }, "ഗുണനഷ്ടമില്ലാത്ത", i.h(ce, {
                 checked: n,
                 onChange: this._inputChange("lossless", "boolean")
             })), i.h(pe, null, !n && i.h("div", {
@@ -923,7 +923,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onSubmit: y
             }, i.h("label", {
                 class: U
-            }, "Lossless", i.h(ce, {
+            }, "ഗുണനഷ്ടമില്ലാത്ത", i.h(ce, {
                 name: "lossless",
                 checked: o,
                 onChange: this._inputChange("lossless", "boolean")
@@ -1048,7 +1048,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onChange: Ce(this, "showAdvanced")
             }), "വിപുലമായ ക്രമീകരണങ്ങൾ"), i.h(pe, null, t ? i.h("div", null, i.h("label", {
                 class: V
-            }, "Channels:", i.h(de, {
+            }, "ചാനലുകൾ:", i.h(de, {
                 name: "color_space",
                 value: e.color_space,
                 onChange: this.onChange
@@ -1060,7 +1060,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 value: 3
             }, "YCbCr"))), i.h(pe, null, 3 === e.color_space ? i.h("div", null, i.h("label", {
                 class: U
-            }, "Auto subsample chroma", i.h(ce, {
+            }, "ഓട്ടോ സബ്സാമ്പിൾ ക്രോമ", i.h(ce, {
                 name: "auto_subsample",
                 checked: e.auto_subsample,
                 onChange: this.onChange
@@ -1072,9 +1072,9 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 max: "4",
                 value: e.chroma_subsample,
                 onInput: this.onChange
-            }, "Subsample chroma by:"))), i.h("label", {
+            }, "സബ്സാമ്പിൾ ക്രോമ:"))), i.h("label", {
                 class: U
-            }, "Separate chroma quality", i.h(ce, {
+            }, "ക്രോമ ഗുണം വേർതിരിക്കുക", i.h(ce, {
                 name: "separate_chroma_quality",
                 checked: e.separate_chroma_quality,
                 onChange: this.onChange
@@ -1086,21 +1086,21 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 max: "100",
                 value: e.chroma_quality,
                 onInput: this.onChange
-            }, "Chroma quality:")) : null)) : null), i.h("label", {
+            }, "ക്രോമ ഗുണം:")) : null)) : null), i.h("label", {
                 class: U
-            }, "Pointless spec compliance", i.h(ce, {
+            }, "പോയിൻ്റ്‌ലെസ് സ്പെക് കമ്പ്ലൈൻസ്", i.h(ce, {
                 name: "baseline",
                 checked: e.baseline,
                 onChange: this.onChange
             })), i.h(pe, null, e.baseline ? null : i.h("label", {
                 class: U
-            }, "Progressive rendering", i.h(ce, {
+            }, "പ്രോഗ്രസീവ് റെൻഡറിങ്", i.h(ce, {
                 name: "progressive",
                 checked: e.progressive,
                 onChange: this.onChange
             }))), i.h(pe, null, e.baseline ? i.h("label", {
                 class: U
-            }, "Optimize Huffman table", i.h(ce, {
+            }, "ഹഫ്മൻ പട്ടിക ഒപ്റ്റിമൈസ് ചെയ്യുക", i.h(ce, {
                 name: "optimize_coding",
                 checked: e.optimize_coding,
                 onChange: this.onChange
@@ -1112,9 +1112,9 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 max: "100",
                 value: e.smoothing,
                 onInput: this.onChange
-            }, "Smoothing:")), i.h("label", {
+            }, "സ്മൂതിങ്:")), i.h("label", {
                 class: V
-            }, "Quantization:", i.h(de, {
+            }, "ക്വാണ്ടിസേഷൻ:", i.h(de, {
                 name: "quant_table",
                 value: e.quant_table,
                 onChange: this.onChange
@@ -1138,7 +1138,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 value: "8"
             }, "Peterson et al"))), i.h("label", {
                 class: U
-            }, "Trellis multipass", i.h(ce, {
+            }, "ട്രെല്ലിസ് മൾട്ടിപാസ്", i.h(ce, {
                 name: "trellis_multipass",
                 checked: e.trellis_multipass,
                 onChange: this.onChange
@@ -1150,7 +1150,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onChange: this.onChange
             })) : null), i.h("label", {
                 class: U
-            }, "Optimize after trellis quantization", i.h(ce, {
+            }, "ട്രെല്ലിസ് ക്വാണ്ടിസേഷനു ശേഷം ഒപ്റ്റിമൈസ് ചെയ്യുക", i.h(ce, {
                 name: "trellis_opt_table",
                 checked: e.trellis_opt_table,
                 onChange: this.onChange
@@ -1162,7 +1162,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 max: "50",
                 value: e.trellis_loops,
                 onInput: this.onChange
-            }, "Trellis quantization passes:"))) : null))
+            }, "ട്രെല്ലിസ് ക്വാണ്ടിസേഷൻ പാസ്സുകൾ:"))) : null))
         }
     }
     var Oe = Object.freeze({
@@ -1434,13 +1434,13 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onSubmit: y
             }, i.h("label", {
                 class: U
-            }, "Lossless", i.h(ce, {
+            }, "ഗുണനഷ്ടമില്ലാത്ത", i.h(ce, {
                 name: "lossless",
                 checked: !!e.lossless,
                 onChange: this.onChange
             })), e.lossless ? this._losslessSpecificOptions(e) : this._lossySpecificOptions(e), i.h("label", {
                 class: U
-            }, "Preserve transparent data", i.h(ce, {
+            }, "ട്രാൻപരെന്റ് ഡാറ്റ സൂക്ഷിക്കുക", i.h(ce, {
                 name: "exact",
                 checked: !!e.exact,
                 onChange: this.onChange
@@ -1521,7 +1521,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onSubmit: y
             }, i.h("label", {
                 class: U
-            }, "Lossless", i.h(ce, {
+            }, "ഗുണനഷ്ടമില്ലാത്ത", i.h(ce, {
                 checked: r,
                 onChange: this._inputChange("lossless", "boolean")
             })), i.h(pe, null, r && i.h("div", {
@@ -2232,15 +2232,15 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
             }, i.h("button", {
                 class: ut,
                 onClick: this.onRotateClick,
-                title: "Rotate"
+                title: "തിരിക്കുക"
             }, i.h(te, null)), !d && i.h("button", {
                 class: "_button_20c9f_133",
                 onClick: this.toggleAliasing,
-                title: "Toggle smoothing"
+                title: "സ്മൂതിങ് സജ്ജമാക്കുക"
             }, l ? i.h(K, null) : i.h(Z, null)), i.h("button", {
                 class: _t,
                 onClick: this.toggleBackground,
-                title: "Toggle background"
+                title: "ബാക്ഗ്രൗണ്ട് സജ്ജമാക്കുക"
             }, r ? i.h(ee, null) : i.h($, null)))))
         }
     }
@@ -2516,7 +2516,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 onInput: this.onHeightInput
             })), i.h(pe, null, zt(e) ? i.h("label", {
                 class: U
-            }, "Premultiply alpha channel", i.h(ce, {
+            }, "പ്രീമൾട്ടിപ്ലൈ ആൽഫാ ചാനൽ", i.h(ce, {
                 name: "premultiply",
                 checked: e.premultiply,
                 onChange: this.onChange
@@ -2888,12 +2888,12 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 class: a ? "_download-disable_126nv_557 _download_126nv_423" : "_download_126nv_423",
                 href: n,
                 download: t ? t.name : "",
-                title: "Download",
+                title: "ഡൗൺലോഡ്",
                 onClick: this.onDownload
             }, i.h("svg", {
                 class: "_download-blobs_126nv_491",
                 viewBox: "0 0 89.6 86.9"
-            }, i.h("title", null, "Download"), i.h("path", {
+            }, i.h("title", null, "ഡൗൺലോഡ്"), i.h("path", {
                 d: "M27.3 72c-8-4-15.6-12.3-16.9-21-1.2-8.7 4-17.8 10.5-26s14.4-15.6 24-16 21.2 6 28.6 16.5c7.4 10.5 10.8 25 6.6 34S64.1 71.8 54 73.6c-10.2 2-18.7 2.3-26.7-1.6z"
             }), i.h("path", {
                 d: "M19.8 24.8c4.3-7.8 13-15 21.8-15.7 8.7-.8 17.5 4.8 25.4 11.8 7.8 6.9 14.8 15.2 14.7 24.9s-7.1 20.7-18 27.6c-10.8 6.8-25.5 9.5-34.2 4.8S18.1 61.6 16.7 51.4c-1.3-10.3-1.3-18.8 3-26.6z"
@@ -3051,9 +3051,9 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 n.file && (n.downloadUrl = URL.createObjectURL(n.file)), this.setState({
                     sides: bt(this.state.sides, t, n)
                 });
-                "undo" === await this.props.showSnack("Settings copied across", {
+                "undo" === await this.props.showSnack("ക്രമീകരണങ്ങൾ പകർത്തി", {
                     timeout: 5e3,
-                    actions: ["undo", "ഒഴിവാക്കുക"]
+                    actions: ["തിരിച്ചാക്കുക", "ഒഴിവാക്കുക"]
                 }) && this.setState({
                     sides: bt(this.state.sides, t, i)
                 })
@@ -3074,13 +3074,13 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
             }, this.onCopyCliClick = async e => {
                 try {
                     const t = function(e, t) {
-                        if (!Ut.has(e.type)) throw Error(`Encoder ${e.type} is unsupported in the CLI`);
+                        if (!Ut.has(e.type)) throw Error(`Encoder ${e.type} CLI-യിൽ പിന്തുണയ്കുന്നില്ല`);
                         return ["npx", "@squoosh/cli", ...t.resize.enabled ? ["--resize", Qt(t.resize)] : [], ...t.quantize.enabled ? ["--quant", Qt(t.quantize)] : [], Ut.get(e.type), Qt(e.options)].join(" ")
                     }(this.state.sides[e].latestSettings.encoderState, this.state.sides[e].latestSettings.processorState);
                     await navigator.clipboard.writeText(t);
-                    "usage" === await this.props.showSnack("CLI command copied to clipboard", {
+                    "usage" === await this.props.showSnack("CLI കമാൻഡ് ക്ലിപ്ബോർഡിലേക്ക് പകർത്തി", {
                         timeout: 8e3,
-                        actions: ["usage", "ഒഴിവാക്കുക"]
+                        actions: ["ഉപയോഗം", "ഒഴിവാക്കുക"]
                     }) && open("https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli")
                 } catch (e) {
                     this.props.showSnack(String(e))
