@@ -525,25 +525,25 @@ define(["require", "exports"], (function(e, t) {
     }
     const ie = [{
             description: "Large photo",
-            size: "4.5mb",
+            size: "4.7mb",
             filename: "photo.jpg",
             url: "/img/demo-large-photo-a6b23f7b.jpg",
             iconUrl: "/img/icon-demo-large-photo-18da387a.jpg"
         }, {
             description: "Artwork",
-            size: "2.1mb",
+            size: "2.2mb",
             filename: "art.jpg",
             url: "/img/demo-artwork-c444f915.jpg",
             iconUrl: "/img/icon-demo-artwork-9eba1655.jpg"
         }, {
             description: "Device screen",
-            size: "1.7mb",
+            size: "1.8mb",
             filename: "pixel3.png",
             url: "/img/demo-device-screen-b9d088e8.jpg",
             iconUrl: "/img/icon-demo-device-screen-5d52d8b9.jpg"
         }, {
             description: "SVG icon",
-            size: "76k",
+            size: "7.7kb",
             filename: "pappadam.svg",
             url: "/img/logo-99b7d28c.svg",
             iconUrl: "/img/icon-demo-logo-326ed9b6.png"
