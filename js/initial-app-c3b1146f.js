@@ -803,7 +803,7 @@ define(["require", "exports"], (function(e, t) {
                 href: "https://www.digitalmalayali.in"
             }, "ഡിജിറ്റൽ മലയാളി"),p("a", {
                 class: ee,
-                href: "https://github.com/GoogleChromeLabs/squoosh/blob/dev/README.md#privacy"
+                href: "https://github.com/digitalmalayali/pappadam#%E0%B4%B8%E0%B5%8D%E0%B4%B5%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B5%8D%E0%B4%AF%E0%B4%A4-"
             }, "സ്വകാര്യത"), p("a", {
                 class: ee,
                 href: "https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli"
