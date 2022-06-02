@@ -3344,7 +3344,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
                 source: a,
                 loading: t || e.loading,
                 flipSide: r || 1 === n,
-                typeLabel: e.latestSettings.encoderState ? Ue[e.latestSettings.encoderState.type].meta.label : "Original Image"
+                typeLabel: e.latestSettings.encoderState ? Ue[e.latestSettings.encoderState.type].meta.label : "യഥാർത്ഥ ചിത്രം"
             })), g = h.encodedSettings || h.latestSettings, m = c.encodedSettings || c.latestSettings, v = g.processorState.resize.enabled && "contain" === g.processorState.resize.fitMethod, f = m.processorState.resize.enabled && "contain" === m.processorState.resize.fitMethod;
             return i.h("div", {
                 class: "_compress_9btcn_1"
