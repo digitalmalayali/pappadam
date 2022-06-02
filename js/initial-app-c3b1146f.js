@@ -575,7 +575,7 @@ define(["require", "exports"], (function(e, t) {
                 } catch (e) {
                     this.setState({
                         fetchingDemoIndex: void 0
-                    }), this.props.showSnack("Couldn't fetch demo image")
+                    }), this.props.showSnack("ഡെമോ ചിത്രം എടുക്കാൻ സാധിച്ചില്ല")
                 }
             }, this.onBeforeInstallPromptEvent = e => {
                 e.preventDefault(), this.setState({
