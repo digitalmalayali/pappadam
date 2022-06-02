@@ -2969,7 +2969,7 @@ define(["require", "exports", "./initial-app-c3b1146f", "./util-d4fc8e28"], (fun
             return await f(e, t, n)
         } catch (e) {
             if (e instanceof Error && "AbortError" === e.name) throw e;
-            throw console.log(e), Error("Couldn't decode image")
+            throw console.log(e), Error("ചിത്രം ഡീകോഡ് ചെയ്യാൻ സാധിക്കുന്നില്ല")
         }
     }
     async function Gt(e, t) {
