@@ -650,13 +650,18 @@ define(["require", "exports"], (function(e, t) {
                 class: "_blob-canvas_19rbd_23 abs-fill"
             }), p("h1", {
                 class: "_logo-container_19rbd_71"
-            }, p("img", {
+            },  p("a", {
+                class: "digilink",
+                href: "https://www.digitalmalayali.in/",
+                target:"_blank"
+            },  p("img", {
                 class: "_logo_19rbd_71",
                 src: "/img/pappadam_logo.svg",
+                href: "https://www.digitalmalayali.in/",
                 alt: "Pappadam",
                 width: "539",
                 height: "162"
-            })), p("div", {
+            }))), p("div", {
                 class: Y
             }, n && p("svg", {
                 class: "_blob-svg_19rbd_105 abs-fill",
@@ -741,7 +746,7 @@ define(["require", "exports"], (function(e, t) {
             }, p("img", {
                 class: $,
                 src: "/img/small-db1eae6f.svg",
-                alt: "silhouette of a large 1.4 megabyte image shrunk into a smaller 80 kilobyte image",
+                alt: "silhouette of a large 2 megabyte image shrunk into a smaller 82 kilobyte image",
                 width: "536",
                 height: "522"
             })))))), p("section", {
@@ -761,7 +766,7 @@ define(["require", "exports"], (function(e, t) {
             }, p("img", {
                 class: $,
                 src: "/img/simple-258b6ed5.svg",
-                alt: "grid of multiple shrunk images displaying various options",
+                alt: "grid of multiple images",
                 width: "538",
                 height: "384"
             })))))), p("section", {
@@ -800,7 +805,8 @@ define(["require", "exports"], (function(e, t) {
                 class: "_footer-items_19rbd_489"
             }, p("a", {
                 class: ee,
-                href: "https://www.digitalmalayali.in"
+                href: "https://www.digitalmalayali.in",
+                target:"_blank"
             }, "ഡിജിറ്റൽ മലയാളി"),p("a", {
                 class: ee,
                 href: "https://github.com/digitalmalayali/pappadam#%E0%B4%B8%E0%B5%8D%E0%B4%B5%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B5%8D%E0%B4%AF%E0%B4%A4-"

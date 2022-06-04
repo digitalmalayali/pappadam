@@ -40,15 +40,11 @@
     <!-- End Google Tag Manager -->
 
     <!-- Google Ad -->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3855750928963104"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3855750928963104"
         crossorigin="anonymous"></script>
-    <!-- Privacy Policy Generator Ad -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-3855750928963104"
-        data-ad-slot="9758959384"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+    <!-- Pappadam ad -->
+    <ins class="adsbygoogle" style="display:inline-block;width:600px;height:100px"
+        data-ad-client="ca-pub-3855750928963104" data-ad-slot="1057990632"></ins>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
@@ -522,8 +518,13 @@
     <div id="app">
         <div class="_intro_19rbd_1 abs-fill"><input class="_hide_19rbd_35" type="file" />
             <div class="_main_19rbd_43">
-                <h1 class="_logo-container_19rbd_71"><img class="_logo_19rbd_71" src="/img/pappadam_logo.svg"
-                        alt="Pappadam" width="539" height="162"/></h1>
+                <h1 class="_logo-container_19rbd_71"><a class="digilink" href="https://www.digitalmalayali.in/"
+                        target="_blank"><img class="_logo_19rbd_71" src="/img/pappadam_logo.svg" alt="Pappadam"
+                            width="539" height="162" /></a>
+                    <div className="fixed-ad">
+                        <GoogleFixedads slot="1057990632" />
+                    </div>
+                </h1>
                 <div class="_load-img_19rbd_91"><svg class="_blob-svg_19rbd_105 abs-fill" viewBox="-1.25 -1.25 2.5 2.5"
                         preserveAspectRatio="xMidYMid slice">
                         <path
@@ -549,9 +550,6 @@
                     </div>
                 </div>
             </div>
-            <div className="ad-class">
-             <GoogleAds slot="9758959384" />
-        </div>
             <div class="_demos-container_19rbd_199"><svg viewBox="0 0 1920 140" class="_top-wave_19rbd_211">
                     <path d="M1920 0l-107 28c-106 29-320 85-533 93-213 7-427-36-640-50s-427 0-533 7L0 85v171h1920z"
                         class="_sub-wave_19rbd_233"></path>
@@ -611,7 +609,7 @@
                             </div>
                             <div class="_info-img-wrapper_19rbd_397"><img class="_info-img_19rbd_397"
                                     src="/img/small-db1eae6f.svg"
-                                    alt="silhouette of a large 1.4 megabyte image shrunk into a smaller 80 kilobyte image"
+                                    alt="silhouette of a large 2 megabyte image shrunk into a smaller 82 kilobyte image"
                                     width="536" height="522" /></div>
                         </div>
                     </div>
@@ -630,7 +628,7 @@
                             </div>
                             <div class="_info-img-wrapper_19rbd_397"><img class="_info-img_19rbd_397"
                                     src="/img/simple-258b6ed5.svg"
-                                    alt="grid of multiple shrunk images displaying various options" width="538"
+                                    alt="grid of multiple images" width="538"
                                     height="384" /></div>
                         </div>
                     </div>
@@ -661,7 +659,7 @@
                     </svg>
                     <div class="_footer-padding_19rbd_481">
                         <footer class="_footer-items_19rbd_489"><a class="_footer-link_19rbd_519"
-                                href="https://www.digitalmalayali.in">ഡിജിറ്റൽ മലയാളി</a>
+                                href="https://www.digitalmalayali.in" target="_blank">ഡിജിറ്റൽ മലയാളി</a>
                             <a class="_footer-link_19rbd_519"
                                 href="https://github.com/digitalmalayali/pappadam#%E0%B4%B8%E0%B5%8D%E0%B4%B5%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B5%8D%E0%B4%AF%E0%B4%A4-">സ്വകാര്യത</a>
                             <a class="_footer-link_19rbd_519"
@@ -1328,13 +1326,17 @@
                         class: "_blob-canvas_19rbd_23 abs-fill"
                     }), p("h1", {
                         class: "_logo-container_19rbd_71"
+                    }, p("a", {
+                        class: "digilink",
+                        href: "https://www.digitalmalayali.in/",
+                        target: "_blank"
                     }, p("img", {
                         class: "_logo_19rbd_71",
                         src: "/img/pappadam_logo.svg",
                         alt: "Pappadam",
                         width: "539",
                         height: "162"
-                    })), p("div", {
+                    }))), p("div", {
                         class: Y
                     }, n && p("svg", {
                         class: "_blob-svg_19rbd_105 abs-fill",
@@ -1419,7 +1421,7 @@
                     }, p("img", {
                         class: $,
                         src: "/img/small-db1eae6f.svg",
-                        alt: "silhouette of a large 1.4 megabyte image shrunk into a smaller 80 kilobyte image",
+                        alt: "silhouette of a large 2 megabyte image shrunk into a smaller 82 kilobyte image",
                         width: "536",
                         height: "522"
                     })))))), p("section", {
@@ -1439,7 +1441,7 @@
                     }, p("img", {
                         class: $,
                         src: "/img/simple-258b6ed5.svg",
-                        alt: "grid of multiple shrunk images displaying various options",
+                        alt: "grid of multiple images",
                         width: "538",
                         height: "384"
                     })))))), p("section", {
@@ -1478,7 +1480,8 @@
                         class: "_footer-items_19rbd_489"
                     }, p("a", {
                         class: ee,
-                        href: "https://www.digitalmalayali.in"
+                        href: "https://www.digitalmalayali.in",
+                        target: "_blank"
                     }, "ഡിജിറ്റൽ മലയാളി"), p("a", {
                         class: ee,
                         href: "https://github.com/digitalmalayali/pappadam#%E0%B4%B8%E0%B5%8D%E0%B4%B5%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B5%8D%E0%B4%AF%E0%B4%A4-"
