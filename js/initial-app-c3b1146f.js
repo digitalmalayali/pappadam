@@ -28,7 +28,7 @@ if (!self.define) {
         e[o] = Promise.resolve().then(() => Promise.all(n.map(e => a[e] || r(e)))).then(e => (i(...e), s))
     }
 }
-define(["require", "exports"], (function(e, t) {
+define(["require", "exports"], (function (e, t) {
     var n, i, o, s, r, a = {},
         l = [],
         c = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;
@@ -104,9 +104,9 @@ define(["require", "exports"], (function(e, t) {
     }
 
     function b() {
-        for (var e; b.__r = i.length;) e = i.sort((function(e, t) {
+        for (var e; b.__r = i.length;) e = i.sort((function (e, t) {
             return e.__v.__b - t.__v.__b
-        })), i = [], e.some((function(e) {
+        })), i = [], e.some((function (e) {
             var t, n, i, o, s, r, a;
             e.__d && (r = (s = (t = e).__v).__e, (a = t.__P) && (n = [], (i = _({}, s)).__v = i, o = C(a, s, i, t.__n, void 0 !== a.ownerSVGElement, null != s.__h ? [r] : null, n, null == r ? m(s) : r, s.__h), A(n, s), o != r && g(s)))
         }))
@@ -117,8 +117,8 @@ define(["require", "exports"], (function(e, t) {
             F = E.length;
         for (_ == a && (_ = null != r ? r[0] : F ? m(i, 0) : null), n.__k = [], f = 0; f < t.length; f++)
             if (null != (b = n.__k[f] = null == (b = t[f]) || "boolean" == typeof b ? null : "string" == typeof b || "number" == typeof b ? h(null, b, null, null, b) : Array.isArray(b) ? h(u, {
-                    children: b
-                }, null, null, null) : null != b.__e || null != b.__c ? h(b.type, b.props, b.key, null, b.__v) : b)) {
+                children: b
+            }, null, null, null) : null != b.__e || null != b.__c ? h(b.type, b.props, b.key, null, b.__v) : b)) {
                 if (b.__ = n, b.__b = n.__b + 1, null === (v = E[f]) || v && b.key == v.key && b.type === v.type) E[f] = void 0;
                 else
                     for (g = 0; g < F; g++) {
@@ -140,12 +140,12 @@ define(["require", "exports"], (function(e, t) {
         var a, l, c;
         if (void 0 !== t.__d) a = t.__d, t.__d = void 0;
         else if (o == n || s != r || null == s.parentNode) e: if (null == r || r.parentNode !== e) e.appendChild(s), a = null;
-            else {
-                for (l = r, c = 0;
-                    (l = l.nextSibling) && c < i.length; c += 2)
-                    if (l == s) break e;
-                e.insertBefore(s, r), a = r
-            } return void 0 !== a ? a : s.nextSibling
+        else {
+            for (l = r, c = 0;
+                (l = l.nextSibling) && c < i.length; c += 2)
+                if (l == s) break e;
+            e.insertBefore(s, r), a = r
+        } return void 0 !== a ? a : s.nextSibling
     }
 
     function D(e, t, n) {
@@ -190,7 +190,7 @@ define(["require", "exports"], (function(e, t) {
                         p.props = w, p.state = p.__s, t.__v !== i.__v && (p.__d = !1), p.__v = t, t.__e = i.__e, t.__k = i.__k, p.__h.length && a.push(p), x(t, l, e);
                         break e
                     }
-                    null != p.componentWillUpdate && p.componentWillUpdate(w, p.__s, k), null != p.componentDidUpdate && p.__h.push((function() {
+                    null != p.componentWillUpdate && p.componentWillUpdate(w, p.__s, k), null != p.componentDidUpdate && p.__h.push((function () {
                         p.componentDidUpdate(m, g, v)
                     }))
                 }
@@ -205,9 +205,9 @@ define(["require", "exports"], (function(e, t) {
     }
 
     function A(e, t) {
-        n.__c && n.__c(t, e), e.some((function(t) {
+        n.__c && n.__c(t, e), e.some((function (t) {
             try {
-                e = t.__h, t.__h = [], e.some((function(e) {
+                e = t.__h, t.__h = [], e.some((function (e) {
                     e.call(t)
                 }))
             } catch (e) {
@@ -225,18 +225,18 @@ define(["require", "exports"], (function(e, t) {
                     e = d, s[_] = null;
                     break
                 } if (null == e) {
-            if (null === t.type) return document.createTextNode(m);
-            e = o ? document.createElementNS("http://www.w3.org/2000/svg", t.type) : document.createElement(t.type, m.is && {
-                is: m.is
-            }), s = null, c = !1
-        }
+                    if (null === t.type) return document.createTextNode(m);
+                    e = o ? document.createElementNS("http://www.w3.org/2000/svg", t.type) : document.createElement(t.type, m.is && {
+                        is: m.is
+                    }), s = null, c = !1
+                }
         if (null === t.type) f === m || c && e.data === m || (e.data = m);
         else {
             if (null != s && (s = l.slice.call(e.childNodes)), p = (f = n.props || a).dangerouslySetInnerHTML, h = m.dangerouslySetInnerHTML, !c) {
                 if (null != s)
                     for (f = {}, u = 0; u < e.attributes.length; u++) f[e.attributes[u].name] = e.attributes[u].value;
                 (h || p) && (h && (p && h.__html == p.__html || h.__html === e.innerHTML) || (e.innerHTML = h && h.__html || ""))
-            }(function(e, t, n, i, o) {
+            } (function (e, t, n, i, o) {
                 var s;
                 for (s in n) "children" === s || "key" === s || s in t || k(e, s, null, n[s], i);
                 for (s in t) o && "function" != typeof t[s] || "children" === s || "key" === s || "value" === s || "checked" === s || n[s] === t[s] || k(e, s, t[s], n[s], i)
@@ -280,7 +280,7 @@ define(["require", "exports"], (function(e, t) {
         }), i
     }
     n = {
-        __e: function(e, t) {
+        __e: function (e, t) {
             for (var n, i, o, s = t.__h; t = t.__;)
                 if ((n = t.__c) && !n.__) try {
                     if ((i = n.constructor) && null != i.getDerivedStateFromError && (n.setState(i.getDerivedStateFromError(e)), o = n.__d), null != n.componentDidCatch && (n.componentDidCatch(e), o = n.__d), o) return t.__h = s, n.__E = n
@@ -289,10 +289,10 @@ define(["require", "exports"], (function(e, t) {
                 }
             throw e
         }
-    }, f.prototype.setState = function(e, t) {
+    }, f.prototype.setState = function (e, t) {
         var n;
         n = null != this.__s && this.__s !== this.state ? this.__s : this.__s = _({}, this.state), "function" == typeof e && (e = e(_({}, n), this.props)), e && _(n, e), null != e && this.__v && (t && this.__h.push(t), v(this))
-    }, f.prototype.forceUpdate = function(e) {
+    }, f.prototype.forceUpdate = function (e) {
         this.__v && (this.__e = !0, e && this.__h.push(e), v(this))
     }, f.prototype.render = u, i = [], o = "function" == typeof Promise ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, b.__r = 0, r = a;
 
@@ -326,7 +326,7 @@ define(["require", "exports"], (function(e, t) {
     class T extends Event {
         constructor(e, t) {
             var n;
-            super(e, t), this instanceof(n = T) || Object.setPrototypeOf(this, n.prototype), this._files = t.files, this._action = t.action
+            super(e, t), this instanceof (n = T) || Object.setPrototypeOf(this, n.prototype), this._files = t.files, this._action = t.action
         }
         get action() {
             return this._action
@@ -500,7 +500,7 @@ define(["require", "exports"], (function(e, t) {
             let t = !1;
             this.observer = new IntersectionObserver((n, i) => {
                 for (const o of n) {
-                    if (!o.isIntersecting) return t = !0, void(e.style.opacity = "0");
+                    if (!o.isIntersecting) return t = !0, void (e.style.opacity = "0");
                     t && (e.style.opacity = "", e.animate({
                         offset: 0,
                         opacity: "0",
@@ -524,30 +524,30 @@ define(["require", "exports"], (function(e, t) {
         }
     }
     const ie = [{
-            description: "Large photo",
-            size: "4.7mb",
-            filename: "photo.jpg",
-            url: "/img/demo-large-photo-a6b23f7b.jpg",
-            iconUrl: "/img/icon-demo-large-photo-18da387a.jpg"
-        }, {
-            description: "Artwork",
-            size: "2.2mb",
-            filename: "art.jpg",
-            url: "/img/demo-artwork-c444f915.jpg",
-            iconUrl: "/img/icon-demo-artwork-9eba1655.jpg"
-        }, {
-            description: "Device screen",
-            size: "1.8mb",
-            filename: "pixel3.png",
-            url: "/img/demo-device-screen-b9d088e8.jpg",
-            iconUrl: "/img/icon-demo-device-screen-5d52d8b9.jpg"
-        }, {
-            description: "SVG icon",
-            size: "7.7kb",
-            filename: "pappadam.svg",
-            url: "/img/logo-99b7d28c.svg",
-            iconUrl: "/img/icon-demo-logo-326ed9b6.png"
-        }],
+        description: "Large photo",
+        size: "4.7mb",
+        filename: "large-photo.jpg",
+        url: "/img/demo-large-photo-a6b23f7b.jpg",
+        iconUrl: "/img/icon-demo-large-photo-18da387a.jpg"
+    }, {
+        description: "Artwork",
+        size: "2.2mb",
+        filename: "art.jpg",
+        url: "/img/demo-artwork-c444f915.jpg",
+        iconUrl: "/img/icon-demo-artwork-9eba1655.jpg"
+    }, {
+        description: "Device screen",
+        size: "1.8mb",
+        filename: "pixel3.png",
+        url: "/img/demo-device-screen-b9d088e8.jpg",
+        iconUrl: "/img/icon-demo-device-screen-5d52d8b9.jpg"
+    }, {
+        description: "SVG icon",
+        size: "7.7kb",
+        filename: "pappadam.svg",
+        url: "/img/logo-99b7d28c.svg",
+        iconUrl: "/img/icon-demo-logo-326ed9b6.png"
+    }],
         oe = matchMedia("(prefers-reduced-motion: reduce)").matches ? void 0 : e("./blob-anim-c843ee1d"),
         se = "introInstallButton-Purple",
         re = navigator.clipboard && navigator.clipboard.read;
@@ -601,8 +601,8 @@ define(["require", "exports"], (function(e, t) {
                 }), "dismissed" === n && (this.installingViaButton = !1)
             }, this.onAppInstalled = () => {
                 if (this.setState({
-                        beforeInstallEvent: void 0
-                    }), document.hidden) return;
+                    beforeInstallEvent: void 0
+                }), document.hidden) return;
                 const e = this.installingViaButton ? se : "browser";
                 ga("send", "event", "pwa-install", "installed", e), this.installingViaButton = !1
             }, this.onPasteClick = async () => {
@@ -612,7 +612,7 @@ define(["require", "exports"], (function(e, t) {
                 } catch (e) {
                     return void this.props.showSnack("No permission to access clipboard")
                 }
-                const t = await async function(e) {
+                const t = await async function (e) {
                     for (const t of e) {
                         const e = t.types.find(e => e.startsWith("image/"));
                         if (e) return t.getType(e)
@@ -631,7 +631,7 @@ define(["require", "exports"], (function(e, t) {
         componentWillUnmount() {
             window.removeEventListener("beforeinstallprompt", this.onBeforeInstallPromptEvent), window.removeEventListener("appinstalled", this.onAppInstalled)
         }
-        render({}, {
+        render({ }, {
             fetchingDemoIndex: e,
             beforeInstallEvent: t,
             showBlobSVG: n
@@ -650,11 +650,11 @@ define(["require", "exports"], (function(e, t) {
                 class: "_blob-canvas_19rbd_23 abs-fill"
             }), p("h1", {
                 class: "_logo-container_19rbd_71"
-            },  p("a", {
+            }, p("a", {
                 class: "digilink",
                 href: "https://www.digitalmalayali.in/",
-                target:"_blank"
-            },  p("img", {
+                target: "_blank"
+            }, p("img", {
                 class: "_logo_19rbd_71",
                 src: "/img/pappadam_logo.svg",
                 href: "https://www.digitalmalayali.in/",
@@ -806,8 +806,8 @@ define(["require", "exports"], (function(e, t) {
             }, p("a", {
                 class: ee,
                 href: "https://www.digitalmalayali.in",
-                target:"_blank"
-            }, "ഡിജിറ്റൽ മലയാളി"),p("a", {
+                target: "_blank"
+            }, "ഡിജിറ്റൽ മലയാളി"), p("a", {
                 class: ee,
                 href: "https://github.com/digitalmalayali/pappadam#%E0%B4%B8%E0%B5%8D%E0%B4%B5%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B5%8D%E0%B4%AF%E0%B4%A4-"
             }, "സ്വകാര്യത"), p("a", {
@@ -886,7 +886,7 @@ define(["require", "exports"], (function(e, t) {
                 e.preventDefault()
             }), window.addEventListener("popstate", this.onPopState)
         }
-        render({}, {
+        render({ }, {
             file: e,
             isEditorOpen: t,
             Compress: n,
@@ -913,8 +913,8 @@ define(["require", "exports"], (function(e, t) {
         }
     }
     const he = document.getElementById("app");
-    !async function() {
-        ! function(e, t, i) {
+    !async function () {
+        ! function (e, t, i) {
             var o, s, c;
             n.__ && n.__(e, t), s = (o = i === r) ? null : i && i.__k || t.__k, e = p(u, null, [e]), c = [], C(t, (o ? t : i || t).__k = e, s || a, a, void 0 !== t.ownerSVGElement, i && !o ? [i] : s ? null : t.childNodes.length ? l.slice.call(t.childNodes) : null, c, i || a, o), A(c, e)
         }(p(pe, null), he)
